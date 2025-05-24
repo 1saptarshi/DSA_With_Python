@@ -43,4 +43,4 @@ Each folder contains curated problems, clean and readable Python solutions, and 
 
 1. **Clone the repository** to your local machine:
    ```bash
-   git clone https://github.com/your-username/python-with-dsa.git
+    https://github.com/1saptarshi/DSA_With_Python.git

@@ -21,8 +21,18 @@ print("Is array sorted (Brute Force)?", is_sorted)
 # If arr[i] > arr[i+1], return False
 # 
 # If loop completes without returning False, return True
-#  
-#  
+
+# ✅ 2. Optimal Approach (Python, using all()) 
+arr = [1, 2, 2, 4, 5]  # Change this to test
+
+is_sorted = all(arr[i] <= arr[i + 1] for i in range(len(arr) - 1))
+
+print("Is array sorted (Optimal)?", is_sorted)
+
+
+  
+  
+ 
  
  
  

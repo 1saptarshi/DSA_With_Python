@@ -19,3 +19,18 @@ def left_rotate_brute_force(arr):
 # Example usage:
 arr = [1, 2, 3, 4, 5]
 print(left_rotate_brute_force(arr))  # Output: [20, 30, 40, 50, 10]
+
+# ✅ 2. Optimal Approach (Using Slicing)
+# 💡 Algorithm:
+# Use Python list slicing:
+
+# arr[1:] gives elements from index 1 to end.
+
+# [arr[0]] is the first element.
+
+def left_rotate_optimal(arr):
+    if not arr:
+          return arr
+    return arr[1:]+[arr[0]]
+arr = [10, 20, 30, 40, 50]
+print(left_rotate_optimal(arr))

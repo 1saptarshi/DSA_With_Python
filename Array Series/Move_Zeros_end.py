@@ -25,3 +25,4 @@ def move_zeros_brute_force(arr):
 arr = [0, 1, 0, 3, 12]
 print(move_zeros_brute_force(arr))  # Output: [1, 3, 12, 0, 0]
 
+ 

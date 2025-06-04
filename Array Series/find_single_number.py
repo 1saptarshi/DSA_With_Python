@@ -1,3 +1,4 @@
+#Find the number that appears once, and the other numbers twice
 def find_single_number(arr):
     result = 0
     for num in arr:
